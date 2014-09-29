@@ -4,8 +4,9 @@ License: GPLv2
 Requires at least: 2.7
 Tested up to: 3.8
 Stable tag: 1.1
+Author: selnomeria
 
-Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login . 
+Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login + yoursite.com/admin. 
 
 
 == Description ==

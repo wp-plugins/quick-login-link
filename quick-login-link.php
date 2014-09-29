@@ -1,7 +1,7 @@
 <?php
 /*
    Plugin Name: Quick Login link
-   Description: Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login. 
+   Description: Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login + yoursite.com/admin. 
    Author: selnomeria
    Version: 1.1
    LICENCE: Free
@@ -10,8 +10,8 @@
 $execut = new QuickLoginLinks;	
 class QuickLoginLinks
 {
-	public $YOUR_CUSTOM_URL= '/login';
-	
+	public $YOUR_CUSTOM_URL1= '/login';
+	public $YOUR_CUSTOM_URL2= '/admin';
 	
 	public function __construct()
 	{
@@ -19,7 +19,11 @@ class QuickLoginLinks
 	}
 	public function start_test_detector()
 	{
-		if (strpos($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], substr(home_url().$this->YOUR_CUSTOM_URL,8)) !== false)
+		if (
+			 (strpos($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], substr(home_url().$this->YOUR_CUSTOM_URL1,8)) !== false)
+			 || 
+			 (strpos($_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'], substr(home_url().$this->YOUR_CUSTOM_URL2,8)) !== false)
+			)
 		{
 			echo '<script type="text/javascript">window.location = "'.home_url().'/wp-login.php?redirect_to='.urlencode(home_url()).'%2Fwp-admin%2Fedit.php%3Fpost_type%3Dpage&reauth=1";</script>';
 			exit;

@@ -1,5 +1,6 @@
 ﻿=== Quick Login link ===
 Author: selnomeria
+Contributors: selnomeria
 Tags: quick,fast,login,link,url,admin
 License: GPLv2
 Requires at least: 2.7

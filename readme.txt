@@ -1,25 +1,19 @@
 ﻿=== Quick Login link ===
+Author: selnomeria
 Tags: quick,fast,login,link,url,admin
 License: GPLv2
 Requires at least: 2.7
 Tested up to: 3.8
 Stable tag: 1.1
-Author: selnomeria
+
 
 Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login + yoursite.com/admin. 
 
 
 == Description ==
 
-After plugin activation, everything is ready. If you want to make a custom url, then you have to change the **/login** to whatever you want.
+After plugin activation, everything is ready. NO MORE DETAILS is needed.
 
-
-= Usage =
-
-1. Download and extract archive to `wp-content/plugins/`
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-
-Related Links:
 
 == Installation ==
 

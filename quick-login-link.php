@@ -2,7 +2,7 @@
 /*
    Plugin Name: Quick Login link
    Description: Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login + yoursite.com/admin. 
-   Author: selnomeria
+   contributors: selnomeria
    Version: 1.1
    LICENCE: Free
 */

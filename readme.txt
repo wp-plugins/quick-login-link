@@ -8,12 +8,12 @@ Tested up to: 3.8
 Stable tag: 1.1
 
 
-Simply login not only through yoursite.com/wp-admin , but also yoursite.com/login + yoursite.com/admin. 
+Simply login not only through yoursite.com/wp-admin , but also: yoursite.com/login OR yoursite.com/admin. 
 
 
 == Description ==
 
-After plugin activation, everything is ready. NO MORE DETAILS is needed.
+After plugin activation, everything is ready. NO MORE DETAILS is needed. (SEE OTHER MUST_HAVE PLUGINS : http://codesphpjs.blogspot.com/2014/10/must-have-wordpress-plugins.html )
 
 
 == Installation ==

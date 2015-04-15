@@ -1,7 +1,7 @@
 <?php
 /*
    Plugin Name: Quick Login link
-   Description: Simply login not only through yoursite.com/wp-admin , but also: yoursite.com/login OR yoursite.com/admin. (SEE OTHER MUST_HAVE PLUGINS : http://codesphpjs.blogspot.com/2014/10/must-have-wordpress-plugins.html ) 
+   Description: Simply login not only through yoursite.com/wp-admin , but also: yoursite.com/login  (P.S.  OTHER MUST-HAVE PLUGINS FOR EVERYONE: http://bitly.com/MWPLUGINS  )
    contributors: selnomeria
    Version: 1.1
    LICENCE: Free

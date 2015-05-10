@@ -6,6 +6,8 @@
    Version: 1.1
    LICENCE: Free
 */
+if ( ! defined( 'ABSPATH' ) ) exit; //Exit if accessed directly
+
 
 $execut = new QuickLoginLinks;	
 class QuickLoginLinks

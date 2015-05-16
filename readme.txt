@@ -3,8 +3,8 @@ Contributors: selnomeria
 Tags: quick,fast,login,link,url,admin
 License: GPLv2
 Requires at least: 2.7
-Tested up to: 3.8
-Stable tag: 1.1
+Tested up to: 4.2.2
+Stable tag: 1.2
 
 Simply login not only through yoursite.com/wp-admin , but also: yoursite.com/login
 

@@ -8,8 +8,7 @@
 */
 if ( ! defined( 'ABSPATH' ) ) exit; //Exit if accessed directly
 
-add_action('init', 'start_login_detector__QLL', 1);  function start_login_detector__QLL()	{	$h= home_url('','relative');
+$h= home_url('','relative');
+if (in_array(strtolower($_SERVER['REQUEST_URI']), array( $h.'/admin', $h.'/login',  $h.'/l' ))){ echo '<script type="text/javascript">window.location = "'.admin_url('').'";</script>'; exit; }
 
-	if (in_array(strtolower($_SERVER['REQUEST_URI']), array( $h.'/admin', $h.'/login',  $h.'/l' ))){ echo '<script type="text/javascript">window.location = "'.admin_url('').'";</script>'; exit; }
-}
 ?>
